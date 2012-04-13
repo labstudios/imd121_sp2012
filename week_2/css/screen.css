@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: black;
+}
+
+.important{
+	font-size: 1.1em;
+	color: #333333;
+}
+
+.highlight{
+	background-color: #ffff00;
+}
+
+#nav ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+
+#nav a{
+	color: red;
+}
+
+#sec1{
+	padding-top: 12px;
+	clear: both;
+}
