@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table{
+	border-collapse:collapse;
+}
+
+table td,
+table th{
+	border: 1px dashed #000000;
+	padding: 5px;
+}
+
+table tr:nth-child(even){
+	background-color: #cccccc;
+}
+
+table th{
+	color: red;
+}
+
+table td[rowspan='2']{
+	background-color: yellow;
+}
+
+a[href^='http']{
+	color: green;
+	text-decoration: none;
+	font-size: .9em;
+}
