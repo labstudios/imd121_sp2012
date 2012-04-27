@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Form</title>
+</head>
+
+<body>
+	<h2>Order Yer D'o-nuts!!</h2>
+	<form action="process.php" enctype="multipart/form-data" method="post">
+    <p>Name: <input name="customer_name" type="text" /></p>
+    <p>Email: <input type="email" name="email" /></p>
+    <p>Password: <input name="password" type="password" /></p>
+    <p>Pick up or delivery: 
+    	<label>
+        	<input name="delivery" type="radio" value="no" checked="checked" />
+            Pick up
+        </label>
+        <label>
+        	<input name="delivery" type="radio" value="yes" />
+            Delivery
+        </label>
+    </p>
+    <p>
+    <label>
+    	How many would you like? 
+    	<select name="num_doughnuts">
+        	<option value="">Select a number</option>
+            <option value="6">Half Dozen</option>
+            <option value="12">Dozen</option>
+            <option value="13">Baker's Dozen</option>
+        </select>
+     </label>
+    </p>
+    <p>Select your flavors:
+    	<label>
+        	<input name="flavors[]" type="checkbox" value="glazed" />
+            Glazed
+        </label>
+        <label>
+        	<input name="flavors[]" type="checkbox" value="chocolate" />
+            Chocolate
+        </label>
+        <label>
+        	<input name="flavors[]" type="checkbox" value="maple" />
+            Maple
+        </label>
+        <label>
+        	<input name="flavors[]" type="checkbox" value="cinnamon" />
+            Cinnamon
+        </label>
+        <label>
+        	<input name="flavors[]" type="checkbox" value="bavarian" />
+            Bavarian
+        </label>
+        <label>
+        	<input name="flavors[]" type="checkbox" value="sugar" />
+            Sugar
+        </label>
+    </p>
+    <p>Special Instructions</p>
+    <p><textarea name="instructions"></textarea></p>
+    <p><input name="file" type="file" /></p>
+    <input name="code" type="hidden" value="x132" />
+    <input type="reset" value="I need to start over." />
+    <input type="submit" value="Give me my D'onuts!!" />
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+

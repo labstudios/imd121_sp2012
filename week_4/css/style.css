@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	/*font-size:12px;
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;*/
+	font: 12px "Trebuchet MS", Helvetica, Arial, sans-serif;
+	color: #222222;
+	background-color: #eeeeee;
+}
+
+h1, h2, h3{
+	font-size: 1.3em;
+}
+
+h1{
+	color: #000000;
+}
+
+.other p{
+	letter-spacing: 0.1em;
+}
+
+.faded{
+	color: #666666;
+}
+
+
+
+
+
+
+
+
