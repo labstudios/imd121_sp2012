@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-size: 15px;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#nav{
+	background-color: #000000;
+	margin: 15px auto;
+	padding: 7px 3px;
+	width: 137px;
+}
+
+#nav a{
+	color: #cccccc;
+	text-decoration: none;
+	padding: 3px 5px;
+	/*margin: 0 10px;*/
+}
+
+#nav a:hover{
+	background: #ffff00;
+	color: #000000;
+	text-decoration: underline;
+}
+
+#content, #footer{
+	/*margin-top: 15px;
+	margin-right: 4px;
+	margin-bottom: 2px;
+	margin-left: 15px;
+	padding-top: 7px;
+	padding-right: 0;
+	padding-bottom: 12px;
+	padding-left: 0;*/
+	margin: 15px 4px 2px 15px;
+	padding: 12px 0;
+}
