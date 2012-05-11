@@ -27,7 +27,23 @@ body{
 	background: url('../img/ghost.png') no-repeat 15px 23px;
 }
 
+#nav a{
+	color: #eeeeee;
+	text-decoration: none;
+	opacity: 0.5;
+	font-size: 1.4em;
+	height: 24px;
+	display: inline-block;
+	padding: 0 14px;
+	background: url('../img/fangs.png') no-repeat center top;
+}
 
+#nav a:hover{
+	color: rgba(240,240,240,0.8);
+	text-decoration: underline;
+	opacity: 1;
+	background: url('../img/fangs.png') no-repeat center -24px;
+}
 
 
 
