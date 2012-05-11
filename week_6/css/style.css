@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size: 15px;
+	/*background-image: url('../img/background.png');
+	background-color: #ff0000;
+	background-position: 10px 10px;*/
+	background: #222222 url('../img/background.png') 10px 15px repeat-y fixed;
+	padding-left: 110px;
+	color: #bbbbbb;
+}
+
+#area1{
+	background: url('../img/bluebg.png') repeat-x;
+}
+
+#area2, #area4{
+	background: url('../img/ghost.png') no-repeat center 23px fixed;
+}
+
+#area3{
+	background: none;
+}
+
+#area3:hover{
+	background: url('../img/ghost.png') no-repeat 15px 23px;
+}
+
+
+
+
+
