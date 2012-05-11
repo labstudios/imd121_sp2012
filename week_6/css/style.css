@@ -13,6 +13,9 @@ body{
 
 #area1{
 	background: url('../img/bluebg.png') repeat-x;
+	/* The following was added during lab time */
+	margin-top: 48px;
+	/* end lab time edit */
 }
 
 #area2, #area4{
@@ -41,9 +44,23 @@ body{
 #nav a:hover{
 	color: rgba(240,240,240,0.8);
 	text-decoration: underline;
-	opacity: 1;
+	opacity: .98;
 	background: url('../img/fangs.png') no-repeat center -24px;
 }
 
+/* The following was added during lab time */
+#nav{
+	background: rgba(34,34,34, 0.9);
+	position: fixed;
+	top: 0;
+	left: 110px;
+	width: 100%;
+}
 
+#nav a{
+	-webkit-transition-property: opacity, color;
+	-webkit-transition-duration: 2s, 1s;
+	-mozilla-transition-property: opacity, color;
+	-mozilla-transition-duration: 2s, 1s;
+}
 
