@@ -60,7 +60,7 @@ body{
 #nav a{
 	-webkit-transition-property: opacity, color;
 	-webkit-transition-duration: 2s, 1s;
-	-mozilla-transition-property: opacity, color;
-	-mozilla-transition-duration: 2s, 1s;
+	-moz-transition-property: opacity, color;
+	-moz-transition-duration: 2s, 1s;
 }
 
